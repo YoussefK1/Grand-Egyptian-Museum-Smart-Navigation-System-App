@@ -1,0 +1,75 @@
+import 'package:flutter/material.dart';
+
+class AppColors {
+  static const Color primaryGold = Color(0xFFD4AF37);
+  static const Color primaryDark = Color(0xFF0A2E36);
+  static const Color secondaryGold = Color(0xFFB8860B);
+  static const Color accentGold = Color(0xFFFFD700);
+  static const Color textLight = Color(0xFFF5F5F5);
+  static const Color textDark = Color(0xFF333333);
+  static const Color inputBg = Color(0x1AFFFFFF);
+  static const Color cardBg = Color(0x33000000); // Added
+  static const Color bottomBarBg = Color(0xFF1A1A1A); // Added
+}
+
+class AppTextStyles {
+  static const TextStyle welcomeTitle = TextStyle(
+    fontSize: 28,
+    fontWeight: FontWeight.w700,
+    color: AppColors.textLight,
+  );
+
+  static const TextStyle museumTitle = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.w600,
+    color: AppColors.accentGold,
+  );
+
+  static const TextStyle sectionTitle = TextStyle( // Added
+    fontSize: 22,
+    fontWeight: FontWeight.w600,
+    color: AppColors.textLight,
+  );
+
+  static const TextStyle buttonText = TextStyle(
+    fontSize: 18,
+    fontWeight: FontWeight.w600,
+    color: AppColors.textLight,
+  );
+
+  static const TextStyle inputLabel = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+    color: AppColors.textLight,
+  );
+
+  static const TextStyle linkText = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+    color: AppColors.accentGold,
+  );
+
+  static const TextStyle menuTitle = TextStyle( // Added
+    fontSize: 20,
+    fontWeight: FontWeight.w700,
+    color: AppColors.textLight,
+  );
+
+  static const TextStyle menuItem = TextStyle( // Added
+    fontSize: 16,
+    fontWeight: FontWeight.w500,
+    color: AppColors.textLight,
+  );
+
+  static const TextStyle cardTitle = TextStyle( // Added
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: AppColors.textLight,
+  );
+
+  static const TextStyle cardDescription = TextStyle( // Added
+    fontSize: 12,
+    fontWeight: FontWeight.w400,
+    color: Colors.white70,
+  );
+}
