@@ -1,0 +1,51 @@
+id,name,type,floor,x,y,description,era_group,theme,floor_label
+ENTRANCE,Main Entrance & Hanging Obelisk,entrance,0,100.0,20.0,Museum entrance plaza with the Hanging Obelisk of Ramesses II.,,,Ground Level (Grand Hall)
+TICKETS,Ticket Hall & Security,service,0,100.0,55.0,"Ticket checks, security screening and cloakroom for large bags.",,,Ground Level (Grand Hall)
+GRAND_HALL,Grand Hall (Ramesses II Colossus),gallery,0,100.0,100.0,"Atrium dominated by the 11 m, 83-ton colossus of Ramesses II.",,,Ground Level (Grand Hall)
+RESTROOM_0,Restrooms (Ground),restroom,0,40.0,90.0,Restrooms near the Grand Hall.,,,Ground Level (Grand Hall)
+CAFE,Cafes & Restaurants,food,0,20.0,130.0,Cafes and restaurants in the commercial area.,,,Ground Level (Grand Hall)
+SHOP,Museum Store,shop,0,180.0,130.0,Gift and book shop in the commercial area.,,,Ground Level (Grand Hall)
+CHILDREN,Children's Museum,gallery,0,40.0,170.0,Learning area for children.,,,Ground Level (Grand Hall)
+GARDEN,Exterior Gardens & Piazza,outdoor,0,170.0,50.0,Gardens with views over the plateau.,,,Ground Level (Grand Hall)
+BOATS,Khufu's Boats Museum,gallery,0,240.0,120.0,Dedicated building for the Solar Boats of Khufu.,,,Ground Level (Grand Hall)
+ELV_W_0,West Elevator (Ground),elevator,0,60.0,110.0,Step-free access to all levels.,,,Ground Level (Grand Hall)
+ELV_E_0,East Elevator (Ground),elevator,0,150.0,110.0,Step-free access to all levels.,,,Ground Level (Grand Hall)
+STAIR_LOWER,Stairwell to Lower Level,stairs,0,120.0,90.0,Stairs down to the cave galleries.,,,Ground Level (Grand Hall)
+GS_0,Grand Staircase - Royal Image,gallery,0,100.0,150.0,"Foot of the Grand Staircase: royal statuary, shrines and architectural elements.",,,Ground Level (Grand Hall)
+GS_1,Grand Staircase - Divine Houses,gallery,1,100.0,100.0,Shrines and architectural elements dedicated to the gods.,,,Grand Staircase - Level 1
+GS_2,Grand Staircase - Gods & Kings,gallery,2,100.0,100.0,Statues of gods and kings; Senwosret I and the king list on the side stair.,,,Grand Staircase - Level 2
+GS_3,Grand Staircase - Journey to Eternity,gallery,3,100.0,100.0,"Funerary-themed monuments, the Akhenaten head and the Restoration Stela.",,,Grand Staircase - Level 3
+GS_TOP,Grand Staircase Top & Pyramid Panorama,junction,4,300.0,40.0,"Panoramic window to the Giza pyramids; turn left for the Main Galleries, right for Tutankhamun.",,,Galleries Level
+ELV_W_4,West Elevator (Galleries Level),elevator,4,270.0,100.0,Step-free access.,,,Galleries Level
+ELV_E_4,East Elevator (Galleries Level),elevator,4,330.0,100.0,Step-free access.,,,Galleries Level
+RESTROOM_4,Restrooms (Galleries Level),restroom,4,300.0,75.0,Restrooms at the top of the staircase.,,,Galleries Level
+G01,Gallery 1 - Early Society,gallery,4,220.0,40.0,Early Egypt - Society,Early Egypt,Society,Galleries Level
+G02,Gallery 2 - Early Kingship,gallery,4,140.0,40.0,Early Egypt - Kingship,Early Egypt,Kingship,Galleries Level
+G03,Gallery 3 - Early Beliefs,gallery,4,60.0,40.0,Early Egypt - Beliefs,Early Egypt,Beliefs,Galleries Level
+G04,Gallery 4 - Middle Kingdom Society,gallery,4,220.0,100.0,Middle Kingdom - Society,Middle Kingdom,Society,Galleries Level
+G05,Gallery 5 - Middle Kingdom Kingship,gallery,4,140.0,100.0,Middle Kingdom - Kingship,Middle Kingdom,Kingship,Galleries Level
+G06,Gallery 6 - Middle Kingdom Beliefs,gallery,4,60.0,100.0,Middle Kingdom - Beliefs,Middle Kingdom,Beliefs,Galleries Level
+G07,Gallery 7 - New Kingdom Society,gallery,4,220.0,160.0,New Kingdom - Society,New Kingdom,Society,Galleries Level
+G08,Gallery 8 - New Kingdom Kingship,gallery,4,140.0,160.0,New Kingdom - Kingship,New Kingdom,Kingship,Galleries Level
+G09,Gallery 9 - New Kingdom Beliefs,gallery,4,60.0,160.0,New Kingdom - Beliefs,New Kingdom,Beliefs,Galleries Level
+G10,Gallery 10 - Late Period Society,gallery,4,220.0,220.0,Late & Greco-Roman - Society,Late & Greco-Roman,Society,Galleries Level
+G11,Gallery 11 - Late Period Kingship,gallery,4,140.0,220.0,Late & Greco-Roman - Kingship,Late & Greco-Roman,Kingship,Galleries Level
+G12,Gallery 12 - Greco-Roman Beliefs,gallery,4,60.0,220.0,Late & Greco-Roman - Beliefs,Late & Greco-Roman,Beliefs,Galleries Level
+TUT_1,Tutankhamun - Identity of the King,gallery,4,380.0,40.0,Tutankhamun - Identity of the King,Tutankhamun,Identity,Galleries Level
+TUT_2,Tutankhamun - Discovery of the Tomb,gallery,4,440.0,40.0,Tutankhamun - Discovery of the Tomb,Tutankhamun,Discovery,Galleries Level
+TUT_3,Tutankhamun - Daily Life & Personal Possessions,gallery,4,500.0,40.0,Tutankhamun - Daily Life & Personal Possessions,Tutankhamun,Daily Life,Galleries Level
+TUT_4,Tutankhamun - Royal Funerary Equipment (Golden Mask),gallery,4,500.0,100.0,Tutankhamun - Royal Funerary Equipment (Golden Mask),Tutankhamun,Burial,Galleries Level
+TUT_5,Tutankhamun - Rebirth & the Afterlife,gallery,4,440.0,100.0,Tutankhamun - Rebirth & the Afterlife,Tutankhamun,Afterlife,Galleries Level
+CAVE_1,Cave Gallery 1,gallery,-1,40.0,120.0,Small basement gallery ('cave').,Mixed,Special,Lower Level (Cave Galleries)
+CAVE_2,Cave Gallery 2,gallery,-1,85.0,120.0,Small basement gallery ('cave').,Mixed,Special,Lower Level (Cave Galleries)
+CAVE_3,Cave Gallery 3,gallery,-1,130.0,120.0,Small basement gallery ('cave').,Mixed,Special,Lower Level (Cave Galleries)
+CAVE_4,Cave Gallery 4,gallery,-1,175.0,120.0,Small basement gallery ('cave').,Mixed,Special,Lower Level (Cave Galleries)
+STAIR_LOWER_-1,Stairwell (Lower Level),stairs,-1,120.0,100.0,Stairs up to the ground level.,,,Lower Level (Cave Galleries)
+ELV_W_-1,West Elevator (Level -1),elevator,-1,60.0,110.0,Step-free access.,,,Lower Level (Cave Galleries)
+ELV_E_-1,East Elevator (Level -1),elevator,-1,150.0,110.0,Step-free access.,,,Lower Level (Cave Galleries)
+ELV_W_1,West Elevator (Level 1),elevator,1,60.0,110.0,Step-free access.,,,Grand Staircase - Level 1
+ELV_E_1,East Elevator (Level 1),elevator,1,150.0,110.0,Step-free access.,,,Grand Staircase - Level 1
+ELV_W_2,West Elevator (Level 2),elevator,2,60.0,110.0,Step-free access.,,,Grand Staircase - Level 2
+ELV_E_2,East Elevator (Level 2),elevator,2,150.0,110.0,Step-free access.,,,Grand Staircase - Level 2
+ELV_W_3,West Elevator (Level 3),elevator,3,60.0,110.0,Step-free access.,,,Grand Staircase - Level 3
+ELV_E_3,East Elevator (Level 3),elevator,3,150.0,110.0,Step-free access.,,,Grand Staircase - Level 3
