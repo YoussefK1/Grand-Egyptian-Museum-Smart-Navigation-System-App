@@ -1,0 +1,43 @@
+import 'package:flutter/material.dart';
+import '../services/api_service.dart';
+import '../utils/constants.dart';
+
+/// Lets the user (or examiner) point the app at the backend and test the connection.
+Future<void> showServerSettings(BuildContext context) async {
+  final ctrl = TextEditingController(text: GemApi.baseUrl);
+  String status = '';
+  await showDialog<void>(
+    context: context,
+    builder: (ctx) => StatefulBuilder(builder: (ctx, setSt) {
+      return AlertDialog(
+        backgroundColor: AppColors.primaryDark,
+        title: Text('Server address', style: AppTextStyles.menuTitle),
+        content: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+          const Text(
+              'Android emulator: http://10.0.2.2:8000\nReal phone: http://<your-PC-IP>:8000\niOS simulator / desktop: http://localhost:8000',
+              style: TextStyle(color: Colors.white60, fontSize: 12)),
+          const SizedBox(height: 12),
+          TextField(
+            controller: ctrl,
+            style: const TextStyle(color: Colors.white),
+            decoration: const InputDecoration(border: OutlineInputBorder(), hintText: 'http://10.0.2.2:8000'),
+          ),
+          const SizedBox(height: 10),
+          Text(status, style: TextStyle(color: status.startsWith('Connected') ? Colors.greenAccent : Colors.orangeAccent)),
+        ]),
+        actions: [
+          TextButton(
+            onPressed: () async {
+              GemApi.baseUrl = ctrl.text.trim().replaceAll(RegExp(r'/+$'), '');
+              final ok = await GemApi.ping();
+              setSt(() => status = ok ? 'Connected - AI features are live.' : 'Not reachable - the app will use offline demo data.');
+              if (ok) status = 'Connected - AI features are live.';
+            },
+            child: const Text('Save & test'),
+          ),
+          TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('Close')),
+        ],
+      );
+    }),
+  );
+}
